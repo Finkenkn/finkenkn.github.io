@@ -1,0 +1,11 @@
+{
+  "name": "finkenkn-portfolio",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=8080",
+    "build:project1": "npm --prefix project1 run build"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
